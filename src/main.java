@@ -42,10 +42,13 @@ JAVA
         System.out.println(symbol);
         System.out.println(currency);
 
-
+        boolean ifAvailable =false;
         boolean isStudent = true;
         boolean forSale = false;
         boolean isOnline = true;
+        String name = "Wanda";
+        String food = "PIZZA";
+        String email = "wandavision@gmail.com";
 
         System.out.println("I am a studen and it is " + isStudent );
         System.out.println(forSale );
@@ -57,9 +60,25 @@ JAVA
         else{
 
             System.out.println("STEP OF BITCH! ");
-
-
         }
+
+        System.out.println("Welcome back young miss, " + name );
+        System.out.println("I heard your kids likeed " + food );
+        System.out.println("you got a few promo on " + email);
+
+        System.out.println("Hello miss "+ name+".");
+        System.out.println("You are currently " + age + " years old in " + year + ".");
+        System.out.println("Today the temperature is " + temperature +" degree celcius");
+        System.out.println("You score a total of " + gpa + " in the year " +year + " and were give " +grade + " grade ");
+        System.out.println("The Pizza is for " + currency +" "+ price);
+        if(ifAvailable == true ){
+            System.out.println("The delivery will be done within 10 minutes");
+        }
+        else{
+            System.out.println("Come get it yourself bruv 😭");
+        }
+
     }
+
 
 }
