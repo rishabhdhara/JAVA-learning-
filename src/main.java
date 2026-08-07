@@ -1,10 +1,15 @@
 import jdk.swing.interop.SwingInterOpUtils;
 
+import java.sql.SQLOutput;
+import java.util.Scanner;
+
 public class main {
 
     public static void main(String[] args) {
 
-        //THIS MY FIRST JAVA PROGRAM
+        //THIS MY FIRST java PROGRAM
+
+
 /*
 THIS
 IS
@@ -82,3 +87,5 @@ JAVA
 
 
 }
+
+
