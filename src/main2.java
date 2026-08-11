@@ -30,5 +30,6 @@ public class main2 {
         System.out.print("I was very "+ adjective3 + "!");
 
         scanner.close();
+        //
     }
 }
