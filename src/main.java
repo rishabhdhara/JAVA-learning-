@@ -1,93 +1,73 @@
-import jdk.swing.interop.SwingInterOpUtils;
-
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
 public class main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
-        //THIS MY FIRST java PROGRAM
+        //Arithmetic Operations
+
+//        int x = 100;
+//        int y = 20;
+//     int z;
+//
+//        //z = x + y;
+//        //z = x- y;
+//        //z = x * y;
+//        //z = x / y;
+//        //z = x % y; (% used for reemainder and is called modulas here)
+//
+//        System.out.println(z);
+
+        /* Agumented assignment operators/operations*/
+        // insted of z here we are gomma contain result in x itself like pehle x = x + y ; gives a result 120 but using
+        // AAO we can write x += y; and it gives the same answers and it is shortcut too!!
+
+//        int x = 100;
+//        int y = 20;
+
+//        x += y;
+//        x -= y;
+//        x *= y;
+//        x /= y;
+//        x %= y;
+
+//        double x = 10.99120;
+//        double y = 833.987;
+//
+//        x *= y;
+//        x /= y;
+//
+//        System.out.println(x);
 
 
-/*
-THIS
-IS
-A
-MULTILINE
-CODE
-JAVA
+        /*Increment and decrement Operations  used with looping structures mostly
+               suppose x = 1 and i write x= x+1; or x += 1; it gives 2 as result but if i aam only incrementing by one/1
+               then i can simply write x++; it will give result 2
+               x++;
+               x++;
+               if written like this i will get result 3 same for minus
+               x--;
+               x--;
+               it gives -1 as answer*/
+
+        int x = 2;
+
+//        x++;
+//        x++;
+//        x++;
+//
+//        x--;
+//        x--;
+//        x--;
+//
+//        System.out.println(x);
+
+
+/* Order of Operations (P-E-M-D-A-S):
+
  */
-        System.out.println("hello");;
-        System.out.println("  wassuppppp ! ");
-        System.out.println("NIGAAAAAAAAAA");
-        System.out.println("jaana");
 
-        int age = 45;
-        int year = 2026 ;
-        int quantity = 55 ;
-        System.out.println("The year is " + year);
-        System.out.println("I posses " + quantity + " coke");
-        System.out.println("My age is " + age);
+        double result = 2.31 * 8.022 - (2000 - 6342 + 5000 * 0 + 99) / 3.33;
 
-        double price = 29.99;
-        double gpa = 5.5;
-        double temperature = 32.4;
-
-        System.out.println("This is the worst day i have ever seen");
-        System.out.println("I got " + gpa +" cgpa");
-        System.out.println("The gas price is a whopping " + price + " dollars");
-        System.out.println("and the temperature is fucking " +temperature + " celcius");
-
-        char grade = 'b' ;
-        char symbol = '@' ;
-        char currency = '¥';
-
-        System.out.println("I got a " + grade + " grade");
-        System.out.println(symbol);
-        System.out.println(currency);
-
-        boolean ifAvailable =false;
-        boolean isStudent = true;
-        boolean forSale = false;
-        boolean isOnline = true;
-        String name = "Wanda";
-        String food = "PIZZA";
-        String email = "wandavision@gmail.com";
-
-        System.out.println("I am a studen and it is " + isStudent );
-        System.out.println(forSale );
-        System.out.println(isOnline);
-
-        if(isStudent == true) {
-            System.out.println("you are a student !");
-        }
-        else{
-
-            System.out.println("STEP OF BITCH! ");
-        }
-
-        System.out.println("Welcome back young miss, " + name );
-        System.out.println("I heard your kids likeed " + food );
-        System.out.println("you got a few promo on " + email);
-
-        System.out.println("Hello miss "+ name+".");
-        System.out.println("You are currently " + age + " years old in " + year + ".");
-        System.out.println("Today the temperature is " + temperature +" degree celcius");
-        System.out.println("You score a total of " + gpa + " in the year " +year + " and were give " +grade + " grade ");
-        System.out.println("The Pizza is for " + currency +" "+ price);
-        if(ifAvailable == true ){
-            System.out.println("The delivery will be done within 10 minutes");
-        }
-        else{
-            System.out.println("Come get it yourself bruv 😭");
-        }
+        System.out.println(result);
 
     }
-
-    //reinstalled git
-
-
 }
-
-

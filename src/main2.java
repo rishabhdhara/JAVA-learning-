@@ -1,36 +1,34 @@
 import java.util.Scanner;
 
 public class main2 {
-    public static void  main(String[] args){
 
-        // Shopping cart problem
+    public static void main(String[] arg){
+        //Mad Libs game
 
         Scanner scanner = new Scanner(System.in);
 
-        String item;
-        double price;
-        int quantity;
-        char currency = '£';
-        double total;
+        String adjective1;
+        String Noun;
+        String adjective2;
+        String verb1;
+        String adjective3;
 
-        System.out.print("What would you like to have? : ");
-        item = scanner.nextLine();
+        System.out.print("Enter an Adjective (description): ");
+        adjective1 = scanner.nextLine();
+        System.out.print("Enter a Noun (Name of an animal/person): ");
+        Noun = scanner.nextLine();
+        System.out.print("Enter an adjective (Description): ");
+        adjective2 = scanner.nextLine();
+        System.out.print("Enter a verb(action): ");
+        verb1 = scanner.nextLine();
+        System.out.print("Enter an adjective(Description): ");
+        adjective3 = scanner.nextLine();
 
-        System.out.print("Price for one plate : ");
-        price = scanner.nextDouble();
-
-        System.out.print("how many plates would you like?: ");
-        quantity = scanner.nextInt();
-
-        total = price * quantity ;
-
-        System.out.println("\nYou have bought " + quantity + " " + item + "/s");
-        System.out.println("Your total is " + currency + total );
-
-
-
+        System.out.print("Today i went to a " +adjective1+ " zoo.");
+        System.out.print("There I saw a " +Noun+ " ." );
+        System.out.print(Noun +" was very " +adjective2 + " and " +verb1+ "!");
+        System.out.print("I was very "+ adjective3 + "!");
 
         scanner.close();
     }
-
 }
