@@ -53,19 +53,21 @@ public class main {
 //        x++;
 //        x++;
 //        x++;
-
-        x--;
-        x--;
-        x--;
-
-        System.out.println(x);
-
-
+//
+//        x--;
+//        x--;
+//        x--;
+//
+//        System.out.println(x);
 
 
+/* Order of Operations (P-E-M-D-A-S):
 
+ */
 
+        double result = 2.31 * 8.022 - (2000 - 6342 + 5000 * 0 + 99) / 3.33;
 
+        System.out.println(result);
 
     }
 }
