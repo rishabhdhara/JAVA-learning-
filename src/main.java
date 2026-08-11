@@ -29,13 +29,37 @@ public class main {
 //        x /= y;
 //        x %= y;
 
-        double x = 10.99120;
-        double y = 833.987;
-
+//        double x = 10.99120;
+//        double y = 833.987;
+//
 //        x *= y;
-        x /= y;
+//        x /= y;
+//
+//        System.out.println(x);
+
+
+        /*Increment and decrement Operations  used with looping structures mostly
+               suppose x = 1 and i write x= x+1; or x += 1; it gives 2 as result but if i aam only incrementing by one/1
+               then i can simply write x++; it will give result 2
+               x++;
+               x++;
+               if written like this i will get result 3 same for minus
+               x--;
+               x--;
+               it gives -1 as answer*/
+
+        int x = 2;
+
+//        x++;
+//        x++;
+//        x++;
+
+        x--;
+        x--;
+        x--;
 
         System.out.println(x);
+
 
 
 
