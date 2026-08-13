@@ -1,6 +1,6 @@
-public class main {
-
-    public static void main(String[] args){
+//public class main {
+//
+//    public static void main(String[] args){
 
         //Arithmetic Operations
 
@@ -48,7 +48,7 @@ public class main {
                x--;
                it gives -1 as answer*/
 
-        int x = 2;
+//        int x = 2;
 
 //        x++;
 //        x++;
@@ -65,9 +65,8 @@ public class main {
 
  */
 
-        double result = 2.31 * 8.022 - (2000 - 6342 + 5000 * 0 + 99) / 3.33;
+//        double result = 2.31 * 8.022 - (2000 - 6342 + 5000 * 0 + 99) / 3.33;
+//
+//        System.out.println(result);
 
-        System.out.println(result);
 
-    }
-}
