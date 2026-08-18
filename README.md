@@ -132,3 +132,47 @@ Enter temperature in Celsius: 100
 - The program only runs one conversion per run — you have to restart it
   to do another.
 
+
+
+
+# Tic Tac Toe :
+
+My first tic-tac-toe game! Made while following Bro Code's Java tutorial on YouTube.
+
+## How to run
+
+```
+javac TicTacToe.java
+java TicTacToe
+```
+
+Player 1 is X, Player 2 is O. Type the number (1-9) of the spot you want to play, based on this layout:
+
+```
+1 | 2 | 3
+---------
+4 | 5 | 6
+---------
+7 | 8 | 9
+```
+
+## Features
+
+- Two players take turns on the same computer
+- Checks rows, columns, and diagonals for a win
+- Detects a tie if the board fills up
+
+## Known issues (will fix later)
+
+- [ ] Typing a letter instead of a number crashes the game (need to add try/catch for bad input)
+- [ ] Typing a number bigger than 9 also crashes it (forgot to check the upper bound in `isValidMove`)
+- [ ] If the very last move of the game is also a winning move, it says "It's a tie!" instead of announcing the winner (checking tie before checking win)
+- [ ] Board size and win conditions are hardcoded (3s and 9s everywhere) instead of using constants
+- [ ] No way to play again after a game ends without restarting the program
+
+## What I learned
+
+- 2D arrays (`char[][]`)
+- `Scanner` for reading input
+- Converting a 1-9 number into row/col with `(choice - 1) / 3` and `(choice - 1) % 3`
+- `static` methods and fields
